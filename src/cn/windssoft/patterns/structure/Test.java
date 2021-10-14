@@ -19,5 +19,13 @@ public class Test {
 		hotel.charge();
 
 		//看起来这个酒店只有这一个充电插口。经过我的setSocket操作，整个旅店就只能为国标充电器充电了。
+
+		//此时来了一个带着德国充电器的人
+		DBSocketInterface dbSocket = new DBSocket();
+		//这个人把德国充电器插入
+		hotel.setSocket(dbSocket);
+		//旅店给他提供电力
+		hotel.charge();
+
 	}
 }
