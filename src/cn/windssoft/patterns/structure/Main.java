@@ -5,13 +5,10 @@ public class Main {
 		AudioPlayer audioPlayer = new Mp3Player();
 		audioPlayer.play();
 
-		AdvancedPlayer mp4Player = new Mp4Player();
-		AdvancedPlayer vlcPlayer = new VlcPlayer();
+		VideoPlayer mp4Player = new Mp4Player();
+		VideoPlayer vlcPlayer = new VlcPlayer();
 
-		mp4Player.playAudio();
-		mp4Player.playVideo();
-
-		vlcPlayer.playAudio();
-		vlcPlayer.playVideo();
+		mp4Player.play();
+		vlcPlayer.play();
 	}
 }

@@ -1,13 +1,8 @@
 package cn.windssoft.patterns.structure;
 
-public class VlcPlayer implements AdvancedPlayer {
+public class VlcPlayer implements VideoPlayer {
 	@Override
-	public void playVideo() {
+	public void play() {
 		System.out.println("VlcPlayer is playing video.");
-	}
-
-	@Override
-	public void playAudio() {
-		System.out.println("VlcPlayer is playing audio.");
 	}
 }

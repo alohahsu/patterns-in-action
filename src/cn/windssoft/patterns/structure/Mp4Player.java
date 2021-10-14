@@ -1,13 +1,8 @@
 package cn.windssoft.patterns.structure;
 
-public class Mp4Player implements AdvancedPlayer {
+public class Mp4Player implements VideoPlayer {
 	@Override
-	public void playVideo() {
+	public void play() {
 		System.out.println("Mp4Player is playing video.");
-	}
-
-	@Override
-	public void playAudio() {
-		System.out.println("Mp4Player is playing audio.");
 	}
 }
