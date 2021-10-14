@@ -14,5 +14,8 @@ public class Test {
 
 		//把组装好的充电器（带有适配器）插入旅店的插座上
 		hotel.setSocket(socketAdapter);
+
+		//酒店的插座马上给我的充电器供电
+		hotel.charge();
 	}
 }
