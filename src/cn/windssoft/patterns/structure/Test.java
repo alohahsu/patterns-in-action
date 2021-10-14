@@ -12,5 +12,9 @@ public class Test {
 
 		//在旅馆中给手机充电
 		hotel.charge();
+
+		//我带着一个国标充电器到了德国
+		GBSocketInterface gbSocket = new GBSocket();
+
 	}
 }
