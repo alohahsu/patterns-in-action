@@ -9,5 +9,8 @@ public class Test {
 		//我发现了一个德国旅店
 		Hotel hotel = new Hotel();
 
+		//我把我的国标充电器和适配器进行组装
+		SocketAdapter socketAdapter = new SocketAdapter(gbSocket);
+
 	}
 }
