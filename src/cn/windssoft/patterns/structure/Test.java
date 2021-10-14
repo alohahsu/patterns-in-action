@@ -12,5 +12,7 @@ public class Test {
 		//我把我的国标充电器和适配器进行组装
 		SocketAdapter socketAdapter = new SocketAdapter(gbSocket);
 
+		//把组装好的充电器（带有适配器）插入旅店的插座上
+		hotel.setSocket(socketAdapter);
 	}
 }
