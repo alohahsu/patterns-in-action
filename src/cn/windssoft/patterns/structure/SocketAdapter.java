@@ -39,6 +39,11 @@ public class SocketAdapter implements DBSocketInterface{   //实现旧接口
 	//如果想连接系统1和系统3，则要构造一个适配器：}---<
 	//匹配：3333}}----<<1111
 
+	//适配有方向性。
+	//适配的入向是座系统
+	//适配的来向是插系统
+	//适配不能反插
+
 	//组合新接口
 	private GBSocketInterface gbSocket;
 
