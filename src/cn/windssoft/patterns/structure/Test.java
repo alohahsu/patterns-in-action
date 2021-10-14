@@ -27,5 +27,8 @@ public class Test {
 		//旅店给他提供电力
 		hotel.charge();
 
+		//我还想充电
+		hotel.setSocket(socketAdapter);
+		hotel.charge();
 	}
 }
