@@ -30,5 +30,7 @@ public class Test {
 		//我还想充电
 		hotel.setSocket(socketAdapter);
 		hotel.charge();
+
+
 	}
 }
